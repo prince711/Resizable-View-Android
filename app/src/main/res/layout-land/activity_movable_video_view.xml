@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/video_view1"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_margin="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent" />
+
+    <VideoView
+        android:id="@+id/video_view2"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp" />
+
+    <VideoView
+        android:id="@+id/video_view3"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone" />
+
+    <VideoView
+        android:id="@+id/video_view4"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="1dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone" />
+
+</RelativeLayout>
